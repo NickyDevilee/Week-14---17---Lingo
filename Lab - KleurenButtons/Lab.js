@@ -15,7 +15,7 @@ for (i = 1; i <= aantalButtons; i++) {
     button.onclick = veranderKleur;
 }
 
-var kleuren = ['red', 'purple', 'blue', 'yellow', 'black'];
+var kleuren = ['red', 'purple', 'blue', 'black'];
 
 function veranderKleur() {
 	var clicked = event.target;
@@ -26,21 +26,20 @@ function veranderKleur() {
 function veranderKleur2() {
 	var clicked = event.target;
     clicked.style.backgroundColor = kleuren[1];
-    clicked.onclick = verwijder;
+    clicked.onclick = veranderKleur3;
 }
 
+function veranderKleur3() {
+	var clicked = event.target;
+    clicked.style.backgroundColor = kleuren[2];
+    clicked.onclick = veranderKleur4;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+function veranderKleur4() {
+	var clicked = event.target;
+    clicked.style.backgroundColor = kleuren[3];
+    clicked.onclick = verwijder;
+}
 
 function verwijder() {
     var clicked = event.target;

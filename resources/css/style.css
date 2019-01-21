@@ -1,0 +1,41 @@
+/*Nicky Devilee | 99047338
+Bol4 applicatieontwikkelaar
+Blok 2
+Week 11-14 - Lingo*/
+
+body {
+	margin-left: 20%;
+	position:absolute;
+	top:15%;
+	left:45%;
+	margin-top:-50px; 
+	margin-left:-100px; 
+}
+
+footer{
+    margin-top: 150px;
+}
+
+input { 
+	text-align: center;
+  	border-style: 1px solid;
+    border-color: DodgerBlue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 65px;
+    width: 65px;
+    font-size: 32px;
+    background-color: lightgrey;
+    margin-right: 5px;
+}
+
+img {
+	width: 48%;
+	height: 90%;
+}
+
+a.button {
+    text-decoration: none;
+    color: initial;
+    padding: 10px;
+}
